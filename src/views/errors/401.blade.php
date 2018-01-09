@@ -8,7 +8,7 @@
     <script src="https://use.fontawesome.com/9eade826f1.js"></script>
 
     <title>Opps!! | 401 - Unauthorized</title>
-    <link rel="shortcut icon" href="{{url('/images/icon-fav.png')}}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{config('error-pages.favicon')}}" type="image/x-icon">
     <style type="text/css">
         body{margin:0 }body,html{width:100%;height:100%;background-color:{{config('error-pages.bg-color')}} }body{color:#fff;text-align:center;text-shadow:0 2px 4px rgba(0,0,0,.5);padding:0;min-height:100%;-webkit-box-shadow:inset 0 0 75pt rgba(0,0,0,.8);box-shadow:inset 0 0 75pt rgba(0,0,0,.8);display:table;font-family:"Open Sans",Arial,sans-serif }a{text-decoration:none;color:#fff;font-size:inherit;border-bottom:dotted 1px #707070 }footer{display: block;position:fixed;width:100%;height:40px;left:0;bottom:0;color:#a0a0a0;font-size:14px }.face{font-size: 10rem;}.code{display:table-cell;padding:40px 20px }.message{margin-top: 150px;}.code h1{font-size: 100px;margin-top: 30px;margin-bottom: 0;}.code h3{font-size: 30px;margin: unset;}.message h3{font-size: 20px;}
     </style>
