@@ -1,0 +1,34 @@
+{
+    "name": "asab/error-pages",
+    "description": "Blade views to display custom error pages",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "errors",
+        "custom-errors"
+    ],
+    "homepage": "https://github.com/Sab94/ErrorPages",
+    "authors": [
+        {
+            "name": "asab",
+            "email": "asabya@gmail.com",
+            "homepage": "https://sab94.github.io/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5"
+    },
+    "autoload": {
+        "psr-0": {
+            "Sab94\\ErrorPages\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sab94\\ErrorPages\\ErrorPagesServiceProvider"
+            ]
+        }
+    }
+}
