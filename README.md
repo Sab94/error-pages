@@ -24,7 +24,7 @@ php artisan vendor:publish
 This will add an `error-pages.php` config file to your config folder and error pages at `views/errors` .
 
 # Usage
-This package offers a an `error-pages.php` config file to your config folder.
+This package offers an `error-pages.php` config file to your config folder.
 
 You can change your error page background-color and contact email from there.
 
